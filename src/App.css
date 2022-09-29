@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo{
+  object-position: 0px 0px;
+}
+
+
+
+.App-header {
+  background: linear-gradient(to right, rgb(15, 15, 194), rgb(255, 122, 144));
+  color: rgb(96, 24, 163);
+  text-shadow: white 0px 0 30px; ;
+  text-align: center;
+  /*min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);*/
+}
+
+.App-link {
+  color: #61dafb;
+}
+

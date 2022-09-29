@@ -1,0 +1,11 @@
+.Photo-scale{
+    display: inline-block; /* Рядково-блоковий елемент */
+    overflow: hidden; /* Приховуємо все за контуром */
+   }
+.Photo-scale:pic{
+    transition: 1s; /* Час ефекту */
+    display: block; /* Прибираємо невеликий відступ знизу */
+   }
+   .Photo-scale:hover {
+    transform: scale(1.2); /* Збільшуємо масштаб */
+   }

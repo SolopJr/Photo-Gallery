@@ -1,0 +1,36 @@
+
+body {margin:0;}
+h2 {
+  font-family: monospace;
+  color: #ff34f5;
+}
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  transition: .5s linear;
+}
+i {
+  margin-right: 10px;
+}
+nav {
+  display: block;
+  width: 358px;
+  margin: 0 auto 30px;
+}
+.menu ul {
+  padding: 1em 0;
+  background: #ECDAD6;
+}
+.menu a {
+  padding: 1em;
+  background: rgba(231, 49, 192, 0.507);
+  border-right: 1px solid #b19891;
+  color: #001aff;
+}
+.menu a:hover {background: #ff0e9bce;}
+.menu li {
+  display: inline;
+}
