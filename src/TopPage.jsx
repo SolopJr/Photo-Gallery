@@ -1,5 +1,4 @@
 import './App.css'
-import './PhotoList.json'
 import './PhotoPosition.css'
 import './PhotoScale.css'
 import './Menu.css'
