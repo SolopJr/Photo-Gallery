@@ -9,7 +9,6 @@ const Paginator=() => {
     <body>
     <link rel="stylesheet" href="./pagination.css"  media="all"/>
       <div className="pagination">
-
         <a href="/Galery/Page1">1</a>
         <a href="/Galery/Page2">2</a>
         <a href="/Galery/Page3">3</a>

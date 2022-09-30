@@ -9,15 +9,17 @@ const Page1_2 = () => {
 
         
         <h1>
-          Galery
+          Gallery
         </h1>
         <h2>Page1</h2>
         <h2>Choose num of pictures in the screen</h2>
+        <p className="App-link">
         <ul>
           <li><a href="/Gallery/10/Page1">10</a></li>
           <li><a href="/Gallery/20/Page1">20</a></li>
           <li><a href="/Gallery/30/Page1">30</a></li>
         </ul>
+        </p>
         <p className='Photo-line'>
         
         <Photos Id='0' />

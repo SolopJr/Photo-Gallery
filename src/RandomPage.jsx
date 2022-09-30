@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './App.css'
 import './RandomPhoto.css'
+import './lightbox.css'
 
 const RandomPage=()=> {
   
@@ -15,9 +16,17 @@ const RandomPage=()=> {
       <div className='container'>
         <h1>Random photo</h1>
         <div className='card'>
+        
+        <a href={`#img${randomId}`}>
         <img src=  {`https://picsum.photos/id/${randomId}/1500/900`} alt="Random Photo" class="img"/>
+        </a>
+
+        <a href="#" className='lightbox' id={`img${randomId}`}>
+        <span style={{backgroundImage : 'url(\'https://picsum.photos/id/'+`${randomId}`+'/1500/900\')'}}></span>
+        </a>
+
         </div>
-        <button onClick={IdGenerator}>Get Random Photo</button>
+        <button onClick={IdGenerator} className='btn'>Get Random Photo</button>
         </div>
   );
 }

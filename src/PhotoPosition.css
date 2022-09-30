@@ -1,11 +1,8 @@
 .Photo-line {
-  color: rgb(96, 24, 163);
-  text-shadow: white 0px 0 30px; ;
-  text-align: center;
-  border: px solid #7555e9; /* Рамка навколо зображення */
-	padding: 15px; /* Відстань від картинки до рамки */
-  margin-right: 0px; /* Відступ зправа */
-	margin-bottom: 0px; /* Відступ знизу */
+  border: px solid #7555e9; 
+	padding: 15px; 
+  margin-right: 0px; 
+	margin-bottom: 0px; 
   display: flex;
   flex-direction: row;
   justify-content: center;
